@@ -1,0 +1,42 @@
+/* Hero section background */
+.hero-section {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+
+    background-image: url("../img/home/hero-slider/running%20image%20landscape.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    overflow: hidden;
+}
+
+/* Text over the background image */
+.hero-text {
+    position: relative;
+    z-index: 2;
+    max-width: 650px;
+    padding: 20px;
+}
+
+.hero-text h3,
+.hero-text h2,
+.hero-text p {
+    color: white;
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 400px;
+        padding: 20px;
+    }
+
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+}

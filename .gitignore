@@ -1,0 +1,8 @@
+# Local configuration and credentials
+/files/payfast-code.php
+.env
+.env.*
+
+# Operating system files
+Thumbs.db
+.DS_Store
